@@ -3,16 +3,16 @@
         "order": 3,
         "title": "Solar Distillation",
         "tagline": "Products for producing premium drinking water at less cost.", 
-        "image": "/assets/img/water-distillation.jpg",
+        "image": "assets/img/water-distillation.jpg",
         "media": {
             "images": [
                 {
                     "type": "main",
-                    "src": "/assets/img/water-distillation.jpg"
+                    "src": "assets/img/water-distillation.jpg"
                 },
                 {
                     "type": "card",
-                    "src": "/assets/img/water-distillation-hd.jpg"
+                    "src": "assets/img/water-distillation-hd.jpg"
                 }
             ]
         },
@@ -22,16 +22,16 @@
         "order": 4,
         "title": "Hydroponic Gardening", 
         "tagline": "Providing high-end produce through decades of experience.",
-        "image": "/assets/img/hydroponics.jpg",
+        "image": "assets/img/hydroponics.jpg",
         "media": {
             "images": [
                 {
                     "type": "main",
-                    "src": "/assets/img/hydroponics.jpg"
+                    "src": "assets/img/hydroponics.jpg"
                 },
                 {
                     "type": "card",
-                    "src": "/assets/img/hydro-hd.jpg"
+                    "src": "assets/img/hydro-hd.jpg"
                 }
             ]
         },
@@ -41,16 +41,16 @@
         "order": 2,
         "title": "Solar Cooking", 
         "tagline": "Portable, mobile, and green!  Cook anywhere you go, even off the grid!",
-        "image": "/assets/img/cooking-5x7.jpg",
+        "image": "assets/img/cooking-5x7.jpg",
          "media": {
             "images": [
                 {
                     "type": "main",
-                    "src": "/assets/img/cooking-5x7.jpg"
+                    "src": "assets/img/cooking-5x7.jpg"
                 },
                 {
                     "type": "card",
-                    "src": "/assets/img/solar-cooking-hd.jpg"
+                    "src": "assets/img/solar-cooking-hd.jpg"
                 }
             ]
         },
@@ -60,16 +60,16 @@
         "order": 1,
         "title": "Food Dehydration", 
         "tagline": "Dehydrate fruits, vegetables, and meats without the need of a plug!",
-        "image": "/assets/img/dehydrate.jpg",
+        "image": "assets/img/dehydrate.jpg",
          "media": {
             "images": [
                 {
                     "type": "main",
-                    "src": "/assets/img/dehydrate.jpg"
+                    "src": "assets/img/dehydrate.jpg"
                 },
                 {
                     "type": "card",
-                    "src": "/assets/img/dehydrate-hd2.jpg"
+                    "src": "assets/img/dehydrate-hd2.jpg"
                 }
             ]
         },
