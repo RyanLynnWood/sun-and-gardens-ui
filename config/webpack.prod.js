@@ -57,8 +57,8 @@ module.exports = webpackMerge(commonConfig, {
       minRatio: 0.8
     }),
     new CopyWebpackPlugin([
-        {from: path.join(helpers.root('src'), 'api'), to: 'api'},
-        {from: path.join(helpers.root('src'), 'images'), to: 'images'}
+        {from: path.join(helpers.root('src'), 'data'), to: 'data'},
+        {from: path.join(helpers.root('src'), 'assets'), to: 'assets'}
       ])
   ]
 });
