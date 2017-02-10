@@ -1,0 +1,79 @@
+ [
+    {
+        "order": 3,
+        "title": "Solar Distillation",
+        "tagline": "Products for producing premium drinking water at less cost.", 
+        "image": "../assets/img/water-distillation.jpg",
+        "media": {
+            "images": [
+                {
+                    "type": "main",
+                    "src": "../assets/img/water-distillation.jpg"
+                },
+                {
+                    "type": "card",
+                    "src": "../assets/img/water-distillation-hd.jpg"
+                }
+            ]
+        },
+        "description": "At Sun and Gardens we pride ourselves on producing clean drinking water using the power of the sun. WE provide the consumer with premium water (Bottled and 5 Gal.) that are solar distilled using the finiest materials to insure optimal quality with no harmful toxins. As we grow its important to give back, and we desire to become a helping force, by setting up solar water distilleries around the globe wherever the need."
+    },
+    {
+        "order": 4,
+        "title": "Hydroponic Gardening", 
+        "tagline": "Providing high-end produce through decades of experience.",
+        "image": "../assets/img/hydroponics.jpg",
+        "media": {
+            "images": [
+                {
+                    "type": "main",
+                    "src": "../assets/img/hydroponics.jpg"
+                },
+                {
+                    "type": "card",
+                    "src": "../assets/img/hydro-hd.jpg"
+                }
+            ]
+        },
+        "description": "At Sun and Gardens it's important to us to provide top quality foods for our consumers, and we do that Hydroponically. Hydroponics is the process of creating a system that is able to recirculate water while supplying the plant roots with nutrients in a completely soilless system."
+    },
+    {
+        "order": 2,
+        "title": "Solar Cooking", 
+        "tagline": "Portable, mobile, and green!  Cook anywhere you go, even off the grid!",
+        "image": "../assets/img/cooking-5x7.jpg",
+         "media": {
+            "images": [
+                {
+                    "type": "main",
+                    "src": "../assets/img/cooking-5x7.jpg"
+                },
+                {
+                    "type": "card",
+                    "src": "../assets/img/solar-cooking-hd.jpg"
+                }
+            ]
+        },
+        "description": "Opportunities abound here at Sun and Gardens. Our future has endless horizons with different levels of opportunities available. Since education and awareness is such a big part of our mission, naturally there are many platforms that we have in our bag. We wish to link up with school systems and be part of their fundraising programs. We will have a team that travels with what we call the 'Solar Circus', which consists of a large scale solar oven with portable solar cookers, dehydrators, and water distillers. When they arrive at a school or other organization we have a presentation to educate the kids and/or other patrons,which is a hands on experience. We then encourage their organization to link up with us for their fundraising event. What sets us apart is that we offer an hands on approach. The children come up with the recipe usually wholesome cookies or breads, then as a team bake the goods. We then package them collectively and off the kids go selling them to friends and family. This opportunity puts the children in the middle of the whole process. They learn about the sustainable way we conduct business, the design, manufacturing of the product, packaging and distribution. They'll learn all about our mission and sustainable/green economics. It's a huge win for us and the future of the children. Sun and Gardens fulfills our mission and gains market share as well. That's not the only place that our 'Solar Circus' will be traveling to. We have in our plans for other teams to be constantly traveling to music concerts and festivals. They will be setting up shop at these events in the vender areas where we mimic our school model with the exception to having outside parties be part of our process. We will have a preset menu and we will cook, bake and prepare food on site with our 'Solar Circus' right in front of the hungry crowds. In turn, selling our fresh products to the patrons at these events. This too, creates market share and becomes part of our mission. These are just a couple of opportunities that lie ahead."
+    },
+    {
+        "order": 1,
+        "title": "Food Dehydration", 
+        "tagline": "Dehydrate fruits, vegetables, and meats without the need of a plug!",
+        "image": "../assets/img/dehydrate.jpg",
+         "media": {
+            "images": [
+                {
+                    "type": "main",
+                    "src": "../assets/img/dehydrate.jpg"
+                },
+                {
+                    "type": "card",
+                    "src": "../assets/img/dehydrate-hd2.jpg"
+                }
+            ]
+        },
+        "description": "For Thousands of years heat from the sun coupled with the wind has been used as a method to dry food crops for preservation.  Using only the sun and a ventalated, glass covered enclosure; we are able to use solar enegery to dehydrate fruits, vegatables, and even meats! "
+    }
+        
+]

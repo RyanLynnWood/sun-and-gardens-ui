@@ -1,0 +1,92 @@
+@import '../../css/colors';
+
+
+.home {
+
+  /*margin-top: 56px;*/
+
+
+
+
+  .marquee {
+
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    /*height: calc(~"100vh - 56px");*/
+
+    height: 100vh;
+    position: relative;
+    color: white;
+
+
+    
+    .title {
+      /*padding: 21px 14px 14px 21px;*/
+      
+    }
+
+    p {
+
+      padding: 0 14px;
+    }
+
+    .scroll-down {
+
+      font-size: 1.25rem;
+
+        /*bottom: 21px;
+        position: absolute;
+        width: 100%;*/
+    }
+
+  }
+
+
+  .container, .container-fluid {
+    
+    /* this is needed for card deck */
+    padding: 0;
+
+
+    .card-deck {
+
+      .card {
+        /* for some reason the margins are messed up */
+        margin: 0 15px;
+      }
+    }
+
+  }
+  
+
+  .image-tile {
+    /*height: calc(~"100vh - 56px");*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+      
+    color: white;
+
+
+
+    &.card {
+      /*border: none;*/
+        
+      
+      min-height: 20rem; 
+
+      .card-block {
+        /* make sure we are displaying content on top of dimmer */
+        z-index: 1;
+      }
+
+    }
+
+
+  }
+
+}

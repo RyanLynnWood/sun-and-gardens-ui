@@ -1,0 +1,105 @@
+Alerts
+http://localhost:8280/bank/rest/aos/types/alerts
+{
+  "alerts" : [ {
+    "description" : "...",
+    "name" : "...",
+    "id" : 12345
+  }, {
+    "description" : "...",
+    "name" : "...",
+    "id" : 12345
+  } ],
+  "message" : "...",
+  "success" : true
+}
+Cards
+http://localhost:8280/bank/rest/aos/types/cards
+{
+  "cards" : [ {
+    "id" : 12345,
+    "description" : "...",
+    "name" : "..."
+  }, {
+    "id" : 12345,
+    "description" : "...",
+    "name" : "..."
+  } ],
+  "message" : "...",
+  "success" : true
+}
+ChequeBooks
+http://localhost:8280/bank/rest/aos/types/chequeBooks
+{
+  "chequeBooks" : [ {
+    "id" : 12345,
+    "description" : "...",
+    "name" : "..."
+  }, {
+    "id" : 12345,
+    "description" : "...",
+    "name" : "..."
+  } ],
+  "message" : "...",
+  "success" : true
+}
+EmploymentTypes
+http://localhost:8280/bank/rest/aos/types/employmentTypes
+{
+  "employmentTypes" : [ {
+    "id" : 12345,
+    "description" : "...",
+    "name" : "..."
+  }, {
+    "id" : 12345,
+    "description" : "...",
+    "name" : "..."
+  } ],
+  "message" : "...",
+  "success" : true
+}
+IdentificationTypes
+http://localhost:8280/bank/rest/aos/types/identificationTypes
+{
+  "identificationTypes" : [ {
+    "id" : 12345,
+    "description" : "...",
+    "name" : "..."
+  }, {
+    "id" : 12345,
+    "description" : "...",
+    "name" : "..."
+  } ],
+  "message" : "...",
+  "success" : true
+}
+MaritalStatus
+http://localhost:8280/bank/rest/aos/types/maritalStatus
+{
+  "maritalStatus" : [ {
+    "id" : 12345,
+    "description" : "...",
+    "name" : "..."
+  }, {
+    "id" : 12345,
+    "description" : "...",
+    "name" : "..."
+  } ],
+  "message" : "...",
+  "success" : true
+}
+StatementFrequencies
+http://localhost:8280/bank/rest/aos/types/statementFrequencies
+{
+  "statementFrequencies" : [ {
+    "id" : 12345,
+    "description" : "...",
+    "name" : "..."
+  }, {
+    "id" : 12345,
+    "description" : "...",
+    "name" : "..."
+  } ],
+  "message" : "...",
+  "success" : true
+}
