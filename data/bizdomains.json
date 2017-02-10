@@ -3,7 +3,7 @@
         "order": 3,
         "title": "Solar Distillation",
         "tagline": "Products for producing premium drinking water at less cost.", 
-        "image": "/assets/img/water-distillation.jpg",
+        "image": "assets/img/water-distillation.jpg",
         "media": {
             "images": [
                 {
