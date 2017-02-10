@@ -8,25 +8,28 @@
 
 
 
+  @media (min-width: 576px) {
+
+    .marquee {
+      // background-size: cover;
+    }
+
+  }
+
   .marquee {
 
     
     background-repeat: no-repeat;
-    background-size: cover;
+    // background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 
-    /*height: calc(~"100vh - 56px");*/
+    // height: calc(~"100vh + 60px");
 
     height: 100vh;
-    position: relative;
+    // position: relative;
     color: white;
-
-
-    
-    .title {
-      /*padding: 21px 14px 14px 21px;*/
-      
-    }
 
     p {
 
@@ -56,18 +59,39 @@
       .card {
         /* for some reason the margins are messed up */
         margin: 0 15px;
+        &[order="1"] {
+          background-position: left top;
+        } 
+        
+        &[order="2"] {
+          background-position: 32% center;
+        }
+
+        &[order="3"] {
+          background-position: 63% center;
+        }
+
+        &[order="4"] {
+          background-position: right bottom;
+        }
+
+       
       }
+
     }
 
   }
   
 
+  
+    
+
   .image-tile {
     /*height: calc(~"100vh - 56px");*/
-    background-size: cover;
+    // background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    
+    background-repeat: no-repeat;
       
     color: white;
 
