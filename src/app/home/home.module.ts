@@ -6,6 +6,10 @@ import {MaterialModule} from '@angular/material';
 import {HomeComponent} from "./home.component";
 
 
+// directives
+import { BackgroundFixedDirective } from '../common/backgroundFixed.directive';
+
+
 
 
 @NgModule({
@@ -17,8 +21,13 @@ import {HomeComponent} from "./home.component";
 	entryComponents: [],
 	declarations:[
 		HomeComponent,
+		BackgroundFixedDirective
 		
-	]
+	],
+	providers: [  ]
 })
+
 export class HomeModule {
+
+
 }

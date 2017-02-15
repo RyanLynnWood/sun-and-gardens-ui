@@ -67,7 +67,8 @@
                 *ngFor="let bizdomain of bizdomains; let i=index" 
                 [ngStyle]="{'background-image': 'url('+bizdomain.image+')'}"
                 [style.order]="bizdomain.order"
-                [attr.order]="bizdomain.order">
+                [attr.order]="bizdomain.order"
+                sgBackgroundFixed>
                 <div class="card-block d-flex flex-column justify-content-center">
                     <h1 class="card-title font-outline-thickest">{{bizdomain.title}}</h1>
                     <p class="card-text font-outline-thickest">{{bizdomain.tagline}}</p>

@@ -28,8 +28,14 @@ import {FooterModule} from './footer/footer.module'
 import {DetailModule} from './detail/detail.module'
 import {MaterialModule} from '@angular/material';
 
+// directives
+// import { BackgroundFixedDirective } from './common/backgroundFixed.directive';
+
 // pipes
-import {OrderByPipe} from "./common/orderBy.pipe"
+// import {OrderByPipe} from "./common/orderBy.pipe"
+
+// services
+import { WindowRef } from './common/windowRef.service';
 
 
 @NgModule({
@@ -46,7 +52,8 @@ import {OrderByPipe} from "./common/orderBy.pipe"
 	],
 	declarations: [
 		AppComponent,
-		OrderByPipe
+		// BackgroundFixedDirective
+		// OrderByPipe
 	],
 	providers   : [
 		// {
@@ -54,6 +61,7 @@ import {OrderByPipe} from "./common/orderBy.pipe"
 		// 	useClass: MyHammerConfig
 		// },
 		// {provide: LocationStrategy, useClass: HashLocationStrategy}
+		WindowRef
 	],
 	bootstrap   : [AppComponent]
 })
