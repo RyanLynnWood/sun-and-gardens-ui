@@ -17,7 +17,7 @@ export class BackgroundFixedDirective {
 
     computedDimension: any;
 
-    scrollRatio: number;
+    readonly scrollRatio: number = 3;
 
     renderer: Renderer;
 
@@ -32,8 +32,6 @@ export class BackgroundFixedDirective {
 
         this.backgroundPosY = undefined;
 
-        this.scrollRatio = 5;
-
         this.scrollYPrev = 0;
 
         this.computedDimension = {
@@ -45,24 +43,6 @@ export class BackgroundFixedDirective {
                 px: 0
             }
         };
-
-        // We cache the function "listenGlobal" returns
-        // this.globalListenFunc = renderer.listenGlobal('window', 'scroll', (evt:any) => { 
-            
-        //     console.log('scroll'); 
-            
-        //     debugger;
-
-        //     console.log(el.nativeElement.scrollY);
-
-        //     // .css('background-position', 'left ' + ((scrolledY)) + 'px');
-
-        //     el.nativeElement.style["background-position"] = 'left '+ evt.currentTarget.scrollY;
-
-
-
-
-        // });
     }
 
 
@@ -162,7 +142,7 @@ export class BackgroundFixedDirective {
 
         // this.image.onload = function() {
         this.image.onload = () => {
-            debugger;
+            // debugger;
 
             
             this.el.nativeElement.style.backgroundImage = 'url("'+this.image.src+'")';
@@ -185,7 +165,7 @@ export class BackgroundFixedDirective {
             if (bgSize.includes(' ')) {
                  let bgSizeAr = bgSize.split(' ');
                  bgSizeX = bgSizeAr[0];
-                 bgSizeY = bgSizeAr[1]; 
+                 bgSizeY = bgSizeAr[1] || "auto"; 
                  
             }
             else if (bgSize === 'cover') {
@@ -193,15 +173,16 @@ export class BackgroundFixedDirective {
                 let coverRatio = clientRect.width/clientRect.height;
                 let scale = undefined;
 
-                /* Step 2 - Work out which ratio is greater */
+                // for cover, find which ratio is greater
                 if (aspectRatio >= coverRatio) {
                     
-                    /* The Height is our constant */
+                    // The Height is our constant 
                     this.computedDimension.height.px = clientRect.height;
                     scale = (this.computedDimension.height.px / this.image.height);
                     this.computedDimension.width.px = this.image.width * scale;
                 
-                } else {
+                } 
+                else {
                     
                     /* The Width is our constant */
                     this.computedDimension.width.px = clientRect.width;

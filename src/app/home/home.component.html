@@ -5,9 +5,8 @@
 
 
     
-    <div class="marquee mb-5" [ngStyle]="{'background-image': 'url(assets/img/food-veg.jpeg)'}">
+    <div class="marquee mb-5" [ngStyle]="{'background-image': 'url(assets/img/food-veg.jpeg)'}" sgRetainHeight="100vh">
         
-        <!--<div class="container">-->
             <div class="d-flex flex-column align-items-center justify-content-center h-100">
                 
                 <div class=" mt-auto">
@@ -17,52 +16,18 @@
                 <div class="mt-auto"><md-icon class="scroll-down">keyboard_arrow_down</md-icon></div>
 
             </div>
-
-                            
-        <!--</div>-->
-        
-        <!--<div class="scroll-down text-center">
-            <button  class="mt-auto" md-fab><md-icon>keyboard_arrow_down</md-icon></button>
-        </div>-->
-
-        <!--<p>Sun and Gardens started as a "Grass Roots" movement in Burlington,North Carolina back in the early 90's and has envolved into a company of passionate core of partners. We are commited to bringing fresh drinking water, dehydrated foods, solar cooked meals, and hydroponic produce throughout the world! </p>
-        
-        <p>Sun and Gardens is determined to become a major producer of quality drinking water world-wide, to increase the use of commercially grown crops using hydroponics, and to educate and spread the awarness of solar ovens, solar cooker and solar dehydrators. </p>-->
-        
+   
     </div>
-    
-    
-    <!--<div class="gutter"></div>
-    <md-grid-list cols="1" gutterSize="56px">
-        <md-grid-tile class="image-tile"
-            *ngFor="let bizdomain of bizdomains; let i=index" 
-
-            [ngStyle]="{'background-image': 'url('+bizdomain.image+')'}">
-          
-            <div class="card w-100 text-center">
-                <div class="card-block">
-                    <h1 class="card-title font-outline-thickest">{{bizdomain.title}}</h1>
-                    <p class="card-text font-outline-thickest">{{bizdomain.tagline}}</p>
-                    <div class="text-right">
-                        <a href="detail/{{i}}" class="btn btn-primary">Tell Me More!</a>
-                    </div>
-                </div>
-            </div>
-            
-        </md-grid-tile>
-    </md-grid-list>-->
-
-    
+  
 
     <div class="container-fluid">
 
 
         
-        <p class="lead text-center mb-5">Select any of our Products below to learn more or purchase them for yourself.</p>
+        <p class="lead text-center mb-5 px-3">Select any of our Products below to learn more or purchase them for yourself.</p>
 
         <div class="card-deck">
         
-        <!--[ngStyle]="{'background-image': 'url('+bizdomain.image+')'}"-->
             <div class="card text-center mb-5 image-tile dimmer"
                 *ngFor="let bizdomain of bizdomains; let i=index" 
                 
@@ -80,7 +45,7 @@
 
         </div>
 
-        <p class="lead text-center mb-5">Remember kids, our products are super good and greener than than the grinch!</p>
+        <p class="lead text-center mb-5 px-3">Remember kids, our products are super good and greener than the grinch!</p>
 
     </div>
 </section>

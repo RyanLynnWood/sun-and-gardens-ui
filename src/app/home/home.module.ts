@@ -8,7 +8,7 @@ import {HomeComponent} from "./home.component";
 
 // directives
 import { BackgroundFixedDirective } from '../common/backgroundFixed.directive';
-
+import { RetainHeightDirective } from '../common/retainHeight.directive';
 
 
 
@@ -21,7 +21,8 @@ import { BackgroundFixedDirective } from '../common/backgroundFixed.directive';
 	entryComponents: [],
 	declarations:[
 		HomeComponent,
-		BackgroundFixedDirective
+		BackgroundFixedDirective,
+		RetainHeightDirective
 		
 	],
 	providers: [  ]
