@@ -2,11 +2,7 @@
 import 'core-js/es7/reflect';
 import 'core-js/client/shim.min';
 
-debugger;
-
 require('zone.js/dist/zone');
-
-
 
 if (process.env.ENV === 'production') {
     // Production

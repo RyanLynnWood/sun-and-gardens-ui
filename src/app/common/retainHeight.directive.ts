@@ -7,6 +7,7 @@ import { WindowRef } from './windowRef.service';
 
 @Directive({ selector: '[sgRetainHeight]' })
 
+
 export class RetainHeightDirective {
    
     // origHeightCSS: string;
@@ -20,29 +21,29 @@ export class RetainHeightDirective {
     @Input('sgRetainHeight') origHeightCSS: string;
 
 
-    @HostListener('window:resize', ['$event'])
-    onResize(event:any) {
+    @HostListener('window:orientationchange', ['$event'])
+    onOrientationChange(event:any) {
         
+        // debugger;
+        this.windowRef.nativeWindow.addEventListener('resize',() => {
+            
+            // debugger;
+            
+            this.setHeight(this.calcHeightInPx(this.origHeightCSS));
+            
+            this.windowRef.nativeWindow.removeEventListener('resize');
 
-
-        this.setHeight(this.calcHeightInPx(this.origHeightCSS));
+        },{once:true});
+        
 
     }
 
 
     ngOnDestroy() {
-        // We execute functions to remove the respectives listeners
-
-        // Removs "listenGlobal" listener
-        // this.globalListenFunc();
+        
     }
 
     ngOnInit() {
-        
-        // let computedStyles = getComputedStyle(this.el.nativeElement);
-            
-        // this.origHeightCSS = computedStyles.getPropertyValue("height");
-
 
         this.setHeight(this.calcHeightInPx(this.origHeightCSS));        
             
@@ -71,6 +72,8 @@ export class RetainHeightDirective {
 
         let styleHeight = height + 'px';
         
+        console.log("Settig height = "+styleHeight);
+
         this.el.nativeElement.style.minHeight = styleHeight;    
         this.el.nativeElement.style.height = styleHeight;
         this.el.nativeElement.style.maxHeight = styleHeight;
